@@ -351,7 +351,7 @@ We can even open the shell of the windows machine by just commanding: shell , in
     We can use download command to download a file from the victim machine. And cat command to open it.
 
 
-3.  Viewing the screen
+3.  Viewing the screen</br>
     By doing the command:</br>
     screenshot -v true</br>
     screenshot of the current screen of the victim window can be taken. A popup will come in front.
@@ -368,7 +368,7 @@ We can even open the shell of the windows machine by just commanding: shell , in
     In the dump <cr> refers to carriage return or it is the enter key pressed.
 
 
-5.  Syping with webcam
+5.  Syping with webcam</br>
     For this lab project, we need to give access to the camera for our virtual machine. To do that, we need to go to Machine>Settings>Ports. Select USB and checkbox enable USB Controller. Restart the VM, turn off the defenders and go to Devices>Webcams and select the name of webcam.
 
 
